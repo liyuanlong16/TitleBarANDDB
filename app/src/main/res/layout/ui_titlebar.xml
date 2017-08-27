@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/titie_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <ImageView
+        android:id="@+id/zuobianImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/zuobianTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-3dp"
+        android:layout_toRightOf="@+id/zuobianImageView"
+        android:text="返回"
+        android:textSize="22sp"
+        android:textColor="@color/baise" />
+    <ImageView
+        android:id="@+id/zuosanjiao"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_toRightOf="@id/zuobianTextView"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/zhongjianTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/zuobianImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-4dp"
+        android:text=""
+        android:textColor="@color/baise"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/youbianTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/zhongjianTextView"
+        android:layout_alignBottom="@+id/zhongjianTextView"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="14dp"
+        android:text="右边"
+        android:textColor="@color/baise"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/rightImageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="60dp"
+        />
+
+    <ImageView
+        android:id="@+id/rightImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        />
+
+
+</RelativeLayout>
